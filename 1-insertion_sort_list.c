@@ -23,7 +23,7 @@ void insertion_sort_list(listint_t **list)
 	{
 		iter = head->next;
 
-		while(head->prev != NULL && head->n < head->prev->n)
+		while (head->prev != NULL && head->n < head->prev->n)
 		{
 			if (head->next != NULL)
 				head->next->prev = head->prev;
