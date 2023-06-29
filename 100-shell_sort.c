@@ -25,7 +25,7 @@ void shell_sort(int *array, size_t size)
 	{
 		gap = gap_array[count];
 
-		if ((int)size > 2 * gap)
+		if (((int)size) > gap)
 		{
 			for (n = gap; n < (int)size; n += gap)
 			{
